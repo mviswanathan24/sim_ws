@@ -1,0 +1,7 @@
+<launch>
+	<!--include world launch file-->
+	<include file="$(find project_gazebo)/launch/pioneer2dx_world_launch.launch"/>
+	<!-- start a node-->
+	<node pkg="project_gazebo" type="feature_extractor.py" name="feature_extractor_node" output="screen"/>
+
+</launch>

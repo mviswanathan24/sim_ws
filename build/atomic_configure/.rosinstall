@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/kartik/gazebo_ws/devel/setup.sh

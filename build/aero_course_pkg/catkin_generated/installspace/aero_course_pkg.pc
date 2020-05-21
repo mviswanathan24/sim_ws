@@ -1,0 +1,8 @@
+prefix=/home/kartik/gazebo_ws/install
+
+Name: aero_course_pkg
+Description: Description of aero_course_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kartik/gazebo_ws/install/lib 
+Requires: 

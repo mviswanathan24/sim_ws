@@ -1,0 +1,8 @@
+prefix=/home/kartik/gazebo_ws/devel
+
+Name: diff_drive_gazebo
+Description: Description of diff_drive_gazebo
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/kartik/gazebo_ws/devel/lib 
+Requires: 

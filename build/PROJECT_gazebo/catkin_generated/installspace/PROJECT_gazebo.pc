@@ -1,0 +1,8 @@
+prefix=/home/kartik/gazebo_ws/install
+
+Name: PROJECT_gazebo
+Description: Description of PROJECT_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kartik/gazebo_ws/install/lib 
+Requires: 

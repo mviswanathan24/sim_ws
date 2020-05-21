@@ -1,0 +1,8 @@
+prefix=/home/kartik/gazebo_ws/devel
+
+Name: control_the_bot
+Description: Description of control_the_bot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kartik/gazebo_ws/devel/lib 
+Requires: 

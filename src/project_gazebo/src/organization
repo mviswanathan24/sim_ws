@@ -1,0 +1,6 @@
+# Hello this is a new document 
+
+standalones:
+1. camera_feed_subscriber.py --> gets camera feed running
+2. feature_extractor.py -->code from the previous file is extended to get sift,surf,shitomasi features
+ 

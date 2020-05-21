@@ -1,0 +1,4 @@
+<launch>
+   <node pkg="project_gazebo" type="move_in_circle.py" name="move_in_circle_node" output="screen"/>
+</launch>
+

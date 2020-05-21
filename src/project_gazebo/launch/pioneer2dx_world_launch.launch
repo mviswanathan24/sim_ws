@@ -1,0 +1,16 @@
+<launch>
+  <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find project_gazebo)/worlds/pioneer2dx_world.world"/>
+    <!-- more default parameters can be changed here -->
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="recording" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!--run the broadcasters for sensor transforms (laser and kinect)-->
+  <node pkg = "project_gazebo" type="hokuyo_broadcaster.py" name="hokuyo_broadcaster_node" output="screen"/> 
+  <node pkg = "project_gazebo" type="kinect_broadcaster.py" name="kinect_broadcaster_node" output="screen"/> 
+</launch>
